@@ -1,0 +1,23 @@
+.fieldsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SearchField, .SortField {
+  width: 50%;
+
+  &.SortField {
+    padding-left: 20px;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+
+}
+
+.card {
+  width: 100%;
+  margin: 5px 60px 5px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}

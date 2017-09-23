@@ -6,6 +6,7 @@
   "author": "Alon Gamliel <gamliela@hotmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "base-64": "0.1.0",
     "material-design-icons": "3.0.1",
     "mobx": "3.3.0",
     "mobx-react": "4.3.2",
@@ -15,6 +16,7 @@
     "react-toolbox": "1.3.4"
   },
   "devDependencies": {
+    "@types/base-64": "0.1.2",
     "@types/react": "16.0.5",
     "@types/react-dom": "15.5.4",
     "css-loader": "0.28.7",
