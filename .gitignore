@@ -1,9 +1,3 @@
 node_modules
 .idea
 /build/
-/*.log
-
-# do not commit auto-generated files (js, map, css)
-/src/**/*.js
-/src/**/*.css
-/src/**/*.map

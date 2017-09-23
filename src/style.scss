@@ -1,7 +1,0 @@
-/* make react toolbox responsive - add left/right padding on large screens */
-@media (min-width: 768px) {
-  .navigation, .tab {
-    padding-left: calc((100% - 768px) / 2);
-    padding-right: calc((100% - 768px) / 2);
-  }
-}
