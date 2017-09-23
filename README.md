@@ -21,6 +21,13 @@ Components state is managed entirely in MobX.
 7. Multi-tabs panel.
 8. Shows error bar on network failures.
 
+### Build Instructions
+Install: `npm install`
+
+Build: `npm run build`
+
+Run: `npm run dev-server` (this will open browser at [http://localhost:8080/](http://localhost:8080/))
+
 ### Assumptions
 1. `Promise` object is natively supported by browser.
 2. `window.fetch` function is natively supported by browser.
